@@ -11,7 +11,7 @@ from fastai.vision import *
 export_file_url = 'https://drive.google.com/uc?export=download&id=1pbNCuJI9vPj8bRHWNuFxxO15cDsxF9AK'
 export_file_name = 'rn-34-bp.pkl'
 
-classes = ['Black Pod', 'Healthy Pod]
+classes = ['Black Pod', 'Healthy Pod']
 path = Path(__file__).parent
 
 app = Starlette()
